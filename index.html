@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Copy key server</title>
+		<meta charset="utf-8" />
+	</head>
+	<body>
+		<img src="key.png" />
+		<h1>Copy Key Server</h1>
+		<hr />
+		Please upload a video using the following form, and select from the below dropdown your type of key:
+		<form action="/upload" method="post" enctype="multipart/form-data">
+			<input type="file" name="file" accept="video/*" />
+			<br />
+			<select name="type">
+				<option value="key1">Key1</option>
+				<option value="key2">Key2</option>
+			</select>
+			<br />
+			<input type="submit" />
+		</form>
+	</body>
+</html>
